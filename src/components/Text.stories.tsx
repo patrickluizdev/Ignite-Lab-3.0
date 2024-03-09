@@ -22,3 +22,12 @@ export const Large: StoryObj<TextProps> = {
     size: 'lg'
   }
 }
+
+export const CustonComponent: StoryObj<TextProps> = {
+  args:{
+    asChild: true,
+    children: (
+      <a>Loren Ipsun Link</a>
+    )
+  }
+}
