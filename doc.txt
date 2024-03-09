@@ -1,0 +1,13 @@
+https://app.rocketseat.com.br/classroom/ignite-lab-3-0/group/ignite-lab-3-0/lesson/ignite-lab-3-0-aula-2-design-system
+
+- Vite design system
+npm create vite@latest
+
+- Dependencias
+npm install -D tailwindcss postcss autoprefixer 
+
+- Iniciando configuração tawind + -p postcss
+npx tailwindcss init -p 
+
+historybook
+npx sb init --builder @storybook/builder-vite --use-npm
