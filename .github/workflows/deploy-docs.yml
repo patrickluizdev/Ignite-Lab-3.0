@@ -30,3 +30,9 @@ jobs:
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }} 
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }} 
+          publish_dir: ./storybook-static/ 
