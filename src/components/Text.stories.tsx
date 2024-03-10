@@ -8,6 +8,14 @@ export default {
     children: "Lorem Ipsun",
     size: 'sm'
   },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg' ],
+      control: {
+        type: 'inline-radio'
+      } 
+    }
+  }
 } as Meta <TextProps>
 
 export const Default: StoryObj<TextProps> = {}
@@ -29,5 +37,12 @@ export const CustonComponent: StoryObj<TextProps> = {
     children: (
       <a>Loren Ipsun Link</a>
     )
+  },
+  argTypes:{
+    children:{
+      table: {
+        disable: true,
+      }
+    }
   }
 }
