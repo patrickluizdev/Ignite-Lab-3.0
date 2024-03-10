@@ -20,7 +20,7 @@ const config: StorybookConfig = {
   },
   viteFinal: (config, { configType }) => {
     if (configType == 'PRODUCTION'){
-      config.base = '/ignite-lab-design-system/storybook-static/'
+      config.base = '/ignite-lab-design-system/storybook-static/.'
     }
     return config
   }
