@@ -26,6 +26,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
 
+      - name: Add .nojekyll to build output
+        run: touch static/.nojekyll
+
       - name: Deploy Storybook
         run: npm run deploy-storybook -- --ci --existing-output-dir=static
         env:
