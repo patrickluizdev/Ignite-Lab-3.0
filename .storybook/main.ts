@@ -6,7 +6,7 @@ const config: StorybookConfig = {
     // Bug fixes github pages ↓ 
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    // "@storybook/addon-onboarding",
+    "@storybook/addon-onboarding",
     // "@storybook/addon-interactions",
     // '@storybook/addon-a11y'
   ],
