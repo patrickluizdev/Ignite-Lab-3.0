@@ -19,7 +19,6 @@ const config: StorybookConfig = {
     if (configType == 'PRODUCTION'){
       config.base = '/ignite-lab-design-system/'
     }
-    console.log('Configuração do Storybook:', config);
     return config
   }
 };
