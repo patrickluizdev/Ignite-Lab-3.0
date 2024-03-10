@@ -5,7 +5,7 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
+    // "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
   ],
   framework: {
@@ -14,6 +14,9 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: true,
+  },
+  features: {
+    "storyStoreV7": true,
   },
   viteFinal: (config, { configType }) => {
     if (configType == 'PRODUCTION'){
