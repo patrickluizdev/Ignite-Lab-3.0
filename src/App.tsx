@@ -10,8 +10,8 @@ import './styles/global.css';
 
 export function App() {
   return (
-    <div className='flex flex-col w-screen h-screen bg-gray-900 items-center justify-center text-gray-100 '>
-      <header className='flex flex-col items-center justify-center max-w-sm'>
+    <div className='flex flex-col w-screen h-screen bg-gray-900 items-center justify-center text-gray-100  p-10'>
+      <header className='flex flex-col items-center justify-center'>
         <Logo/>
 
         <Heading size='lg' className='mt-2'>
