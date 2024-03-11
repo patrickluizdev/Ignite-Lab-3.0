@@ -22,14 +22,19 @@ jobs:
         run: npm ci 
 
       - name: Build Storybook
-        run: npm run build-storybook -- --output-dir static/storybook-static/
+        run: npm run build-storybook -- --output-dir static/storybook-static/ && npm run build
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build Aplication
+        run: npm run build
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
 
       - name: Add .nojekyll to build output
         run: touch static/.nojekyll
 
-      - name: Deploy Storybook
+      - name: Deploy Branch
         run: npm run deploy-storybook -- --ci --existing-output-dir=static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
