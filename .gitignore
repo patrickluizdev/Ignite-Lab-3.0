@@ -27,3 +27,6 @@ dist-ssr
 # Storybook
 storybook-static
 
+# Static files
+static
+
