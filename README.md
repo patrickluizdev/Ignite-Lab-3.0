@@ -49,9 +49,9 @@ Este projeto conta com integração contínua (CI) e implantação contínua (CD
 
 
 ## Screenshots
-![Imagem Dashboard Storybook](https://github.com/patrickluizdev/ignite-lab-design-system/tree/develop/.github/Screenshots/Storybook.png)
+![Imagem Dashboard Storybook](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Storybook.png)
 
-![Imagem Aplicação](https://github.com/patrickluizdev/ignite-lab-design-system/tree/develop/.github/Screenshots/Aplication.jpg)
+![Imagem Aplicação](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Aplication.jpg)
 
 
 
