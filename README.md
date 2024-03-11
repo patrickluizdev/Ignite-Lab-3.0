@@ -1,62 +1,53 @@
-# Design System com Storybook
+# Design System with Storybook
 
-Este repositório contém um projeto que demonstra o uso do Storybook como um Design System para componentes React. O Storybook é uma ferramenta que permite criar e visualizar componentes de interface de usuário de forma isolada. Com o Storybook, os desenvolvedores podem construir, documentar e testar componentes de forma independente do resto da aplicação, facilitando o desenvolvimento e a manutenção de interfaces de usuário complexas.
+This repository contains a project that demonstrates the use of Storybook as a Design System for React components. Storybook is a tool that allows you to create and view user interface components in isolation. With Storybook, developers can build, document, and test components independently of the rest of the application, making it easier to develop and maintain complex user interfaces.
 
-Alguns dos principais recursos do Storybook incluem:
+Some of the key features of Storybook include:
 
-1. **Desenvolvimento Isolado:** Permite desenvolver e visualizar componentes de forma isolada, facilitando a identificação e correção de problemas de forma mais eficiente.
+1. **Isolated Development:** Allows you to develop and view components in isolation, making it easier to identify and fix issues more efficiently.
 
-2. **Documentação Automática:** Gera automaticamente documentação para os componentes, incluindo propriedades, exemplos de uso e descrições, facilitando a compreensão e o uso dos componentes por outros desenvolvedores.
+2. **Automatic Documentation:** Automatically generates documentation for components, including properties, usage examples, and descriptions, making it easier for other developers to understand and use the components.
 
-3. **Suporte a Diferentes Frameworks:** Suporta diversos frameworks, como React, Vue.js, Angular, entre outros, permitindo que os desenvolvedores escolham a melhor tecnologia para seus projetos.
+3. **Support for Different Frameworks:** Supports various frameworks such as React, Vue.js, Angular, among others, allowing developers to choose the best technology for their projects.
 
-4. **Teste Visual:** Permite testar visualmente os componentes em diferentes estados e em diferentes navegadores, garantindo a consistência e a qualidade da interface de usuário.
+4. **Visual Testing:** Allows you to visually test components in different states and in different browsers, ensuring consistency and quality of the user interface.
 
-5. **Integração Contínua:** Pode ser integrado a pipelines de integração contínua para automatizar a geração de documentação e testes de componentes.
+5. **Continuous Integration:** Can be integrated into continuous integration pipelines to automate the generation of documentation and component tests.
 
-6. **Addon e Plugins:** Possui uma grande variedade de addons e plugins que adicionam funcionalidades extras, como suporte a acessibilidade, integração com serviços de design, entre outros.
+6. **Addons and Plugins:** Has a wide variety of addons and plugins that add extra functionality, such as accessibility support, integration with design services, among others.
 
-Em resumo, o Storybook é uma ferramenta poderosa para o desenvolvimento de interfaces de usuário, permitindo um desenvolvimento mais rápido, consistente e de alta qualidade.
+In summary, Storybook is a powerful tool for developing user interfaces, enabling faster, more consistent, and high-quality development.
 
-## Prototipo do Projeto
+## Project Prototype
 
 - [Figma](https://www.figma.com/file/RA3qvmM8s6SYIGi85CGYqm/Ignite-Lab---Design-System?type=design&node-id=0%3A1&mode=design&t=Sd0Gj6BYPbhcO8Mc-1)
 
-## Dependências
+## Dependencies
 
-- **typescript:** Linguagem de programação que adiciona tipos ao JavaScript, garantindo uma melhor segurança e manutenibilidade do código.
-- **storybook:** Biblioteca para desenvolvimento de componentes de UI, permitindo a construção de uma biblioteca de componentes interativa e documentada.
-- **tailwindcss:** Framework CSS utilitário que ajuda a criar designs flexíveis e responsivos com uma abordagem baseada em classes.
-- **vite:** Ferramenta de build rápida para projetos JavaScript e TypeScript, com suporte a desenvolvimento rápido e hot module replacement.
-- **autoprefixer:** Plugin PostCSS para adicionar prefixos automaticamente ao seu CSS, garantindo uma melhor compatibilidade com os navegadores.
-- **eslint:** Ferramenta de linting para JavaScript e TypeScript, que ajuda a manter um código limpo e consistente.
-- **postcss:** Ferramenta de pós-processamento para transformar CSS com JavaScript, utilizado para adicionar prefixos de fornecedor, minificar e outras transformações.
+- **typescript:** A programming language that adds types to JavaScript, ensuring better code security and maintainability.
+- **storybook:** A library for developing UI components, allowing the construction of an interactive and documented component library.
+- **tailwindcss:** A utility-first CSS framework that helps create flexible and responsive designs with a class-based approach.
+- **vite:** A fast build tool for JavaScript and TypeScript projects, with support for rapid development and hot module replacement.
+- **autoprefixer:** A PostCSS plugin to automatically add prefixes to your CSS, ensuring better browser compatibility.
+- **eslint:** A linting tool for JavaScript and TypeScript, which helps maintain clean and consistent code.
+- **postcss:** A post-processing tool to transform CSS with JavaScript, used to add vendor prefixes, minify, and other transformations.
 
-## Como usar
+## How to Use
 
-1. Clone este repositório.
-2. Instale as dependências com `npm install`.
-3. Inicie o Storybook e a Aplicação com `npm start`.
-4. Visualize e interaja com os componentes no Storybook em `http://localhost:6006`.
-5. Visualize e interaja com a Aplicação em `http://localhost:5173`.
+1. Clone this repository.
+2. Install dependencies with `npm install`.
+3. Start Storybook and the Application with `npm start`.
+4. View and interact with the components in Storybook at `http://localhost:6006`.
+5. View and interact with the Application at `http://localhost:5173`.
 
 ## CI/CD
 
-Este projeto conta com integração contínua (CI) e implantação contínua (CD) configuradas. Os deploys podem ser acessados nos seguintes links:
+This project has continuous integration (CI) and continuous deployment (CD) configured. The deployments can be accessed at the following links:
 
-- [Deploy da Aplicação](https://patrickluizdev.github.io/ignite-lab-design-system/application-static/)
-- [Deploy do Storybook](https://patrickluizdev.github.io/ignite-lab-design-system/storybook-static/)
-
+- [Application Deployment](https://patrickluizdev.github.io/ignite-lab-design-system/application-static/)
+- [Storybook Deployment](https://patrickluizdev.github.io/ignite-lab-design-system/Storybook-static/)
 
 ## Screenshots
-![Imagem Dashboard Storybook](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Storybook.png)
+![Storybook Dashboard Image](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Storybook.png)
 
-![Imagem Aplicação](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Aplication.jpg)
-
-
-
-
-
-
-
-
+![Application Image](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Aplication.jpg)
