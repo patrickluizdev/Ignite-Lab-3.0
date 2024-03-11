@@ -10,8 +10,8 @@ import './styles/global.css';
 
 export function App() {
   return (
-    <div className='flex flex-col w-screen h-screen bg-gray-900 flex items-center justify-center text-gray-100 '>
-      <header className='flex flex-col items-center justify-center '>
+    <div className='flex flex-col w-screen h-screen bg-gray-900 items-center justify-center text-gray-100 '>
+      <header className='flex flex-col items-center justify-center max-w-sm'>
         <Logo/>
 
         <Heading size='lg' className='mt-2'>
@@ -51,7 +51,7 @@ export function App() {
         <Button className='mt-4'>Entrar na Plataforma</Button>
       </form>
 
-      <footer className='flex flex-col items-center gap-4  mt-8'>
+      <footer className='flex flex-col items-center gap-4  mt-8 max-w-sm'>
         <Text asChild size="sm" >
           <a href='#' className='text-gray-400 underline hover:text-gray-200'>
             Esqueceu sua senha?
