@@ -19,8 +19,7 @@ Some of the key features of Storybook include:
 In summary, Storybook is a powerful tool for developing user interfaces, enabling faster, more consistent, and high-quality development.
 
 ## Project Prototype
-
-- [Figma](https://www.figma.com/file/RA3qvmM8s6SYIGi85CGYqm/Ignite-Lab---Design-System?type=design&node-id=0%3A1&mode=design&t=Sd0Gj6BYPbhcO8Mc-1)
+- **Application Deployment:** https://www.figma.com/file/RA3qvmM8s6SYIGi85CGYqm/Ignite-Lab---Design-System?type=design&node-id=0%3A1&mode=design&t=Sd0Gj6BYPbhcO8Mc-1
 
 ## Dependencies
 
@@ -44,8 +43,8 @@ In summary, Storybook is a powerful tool for developing user interfaces, enablin
 
 This project has continuous integration (CI) and continuous deployment (CD) configured. The deployments can be accessed at the following links:
 
-- [Application Deployment](https://patrickluizdev.github.io/ignite-lab-design-system/application-static/)
-- [Storybook Deployment](https://patrickluizdev.github.io/ignite-lab-design-system/Storybook-static/)
+- **Application Deployment:** https://patrickluizdev.github.io/ignite-lab-design-system/application-static/
+- **Storybook Deployment:** https://patrickluizdev.github.io/ignite-lab-design-system/storybook-static/
 
 ## Screenshots
 ![Storybook Dashboard Image](https://raw.githubusercontent.com/patrickluizdev/ignite-lab-design-system/develop/.github/Screenshots/Storybook.png)
